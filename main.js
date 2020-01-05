@@ -157,7 +157,7 @@ async function main() {
       // We don't have the data we need for XR rendering, so we'll just render to the screen instead.
       canvas.width = 300;
       canvas.height = 150;
-      const view = mat4.lookAt([], [0, 0, 0], [0, 0, -1], [0, 1, 0]);
+      const view = mat4.lookAt([], [0, 0, -0.4], [0, 0, -1], [0, 1, 0]);
       regl.clear({ color: [1, 1, 1, 1], depth: 1 });
       cmdRender({
         model,
