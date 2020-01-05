@@ -1,0 +1,23 @@
+{
+  "name": "regl-webxr-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo main.js:bundle.js --live -H 0.0.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bunny": "^1.0.1",
+    "geo-center": "^1.0.2",
+    "gl-matrix": "^3.1.0",
+    "normals": "^1.1.0",
+    "regl": "^1.3.13",
+    "webxr-polyfill": "^2.0.1"
+  },
+  "devDependencies": {
+    "budo": "^11.6.3"
+  }
+}
